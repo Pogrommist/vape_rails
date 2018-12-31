@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'pg', '~> 0.18.4'
 gem 'slim'
-
+gem 'devise'
 
 group :development, :test do
   # Adds support for Capybara system testing and selenium driver
