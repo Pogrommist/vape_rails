@@ -1,0 +1,10 @@
+.vape__products-wrapper
+	- @products.find_each do |product|
+		.vape__product-card
+			= link_to product_path(product) do
+				= image_tag product.image_url, class: 'vape__product-card__image'
+				.vape__product-card__content
+					p.vape__product-card__text.vape__product-card__text--title = product.name
+					p.vape__product-card__text = product.product_type
+					p.vape__product-card__text.vape__product-card__text--description = truncate product.description, length: 200
+					p.vape__product-card__text.vape__product-card__text--price = number_to_currency product.price, locale: :ru

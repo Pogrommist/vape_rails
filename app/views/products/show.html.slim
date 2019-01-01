@@ -1,0 +1,6 @@
+.vape__product-container
+	= image_tag @product.image_url
+	p = @product.name
+	p = @product.product_type
+	p = @product.description
+	p = number_to_currency @product.price, locale: :ru
