@@ -1,0 +1,43 @@
+.vape__products-wrapper {
+	max-width: 128rem;
+	margin: 0 auto;
+	display: flex;
+	.vape__product-card {
+		& > a {
+			margin: 0 1rem 1rem 0;
+			border: 1px solid black;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			text-decoration: none;
+			color: black;
+			max-width: 320px;
+			&:hover {
+				border: 1px solid blue;
+			}
+		}
+		&__content {
+			max-width: 50%;
+		}
+		&__text {
+			&--title {
+				display: flex;
+    		align-items: center;
+				font-weight: 600;
+				font-size: 2rem;
+				height: 7rem;
+			}
+			&--description {
+				height: 20rem;
+			}
+			&--price {
+				color: red;
+				font-weight: 600;
+			}
+		}
+		&__image {
+			width: 20rem;
+			height: auto;
+		}
+	}
+}
