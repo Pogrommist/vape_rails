@@ -1,0 +1,26 @@
+@import 'variables';
+
+.vape__navigation {
+	margin: 1rem 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	& > div {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		& > a {
+			text-decoration: none;
+			color: $black;
+		}
+	}
+	&__logo {
+		margin-right: 2rem;
+	}
+	&__user {
+		margin-right: 1rem;
+	}
+	.simple-navigation-active-leaf {
+		color: $blue;
+	}
+}
