@@ -37,6 +37,7 @@ gem 'pg', '~> 0.18.4'
 gem 'slim'
 gem 'devise'
 gem "simple-navigation"
+gem 'activeadmin'
 
 group :development, :test do
   # Adds support for Capybara system testing and selenium driver

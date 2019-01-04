@@ -5,6 +5,7 @@
 	margin: 0 auto;
 	display: flex;
 	.vape__product-card {
+		width: 320px;
 		& > a {
 			margin: 0 1rem 1rem 0;
 			border: 1px solid black;
@@ -14,12 +15,17 @@
 			text-decoration: none;
 			color: black;
 			max-width: 320px;
+			height: 50rem;
 			&:hover {
 				border: 1px solid blue;
 			}
 		}
 		&__content {
 			max-width: 50%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			height: 100%;
 		}
 		&__text {
 			&--title {
