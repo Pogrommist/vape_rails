@@ -1,0 +1,4 @@
+.vape__navigation
+	p.vape__navigation__logo LOGO
+	p.vape__navigation__user = current_user.email if current_user
+	= render_navigation renderer: :links

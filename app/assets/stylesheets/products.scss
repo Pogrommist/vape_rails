@@ -1,3 +1,5 @@
+@import 'variables';
+
 .vape__products-wrapper {
 	max-width: 128rem;
 	margin: 0 auto;
@@ -31,7 +33,7 @@
 				height: 20rem;
 			}
 			&--price {
-				color: red;
+				color: $red;
 				font-weight: 600;
 			}
 		}
