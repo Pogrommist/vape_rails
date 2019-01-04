@@ -38,3 +38,6 @@ ru:
           separator: '.'
           precision: 0
           format: '%n %u'
+  time:
+    formats:
+      long: "%Y-%m-%d %H:%M:%S"

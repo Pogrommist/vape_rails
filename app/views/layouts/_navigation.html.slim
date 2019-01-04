@@ -1,4 +1,4 @@
 .vape__navigation
-	p.vape__navigation__logo LOGO
+	= image_tag 'logo.jpg', class: 'vape__navigation__logo'
 	p.vape__navigation__user = current_user.email if current_user
 	= render_navigation renderer: :links
