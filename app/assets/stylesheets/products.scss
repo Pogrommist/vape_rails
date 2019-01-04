@@ -42,10 +42,34 @@
 				color: $red;
 				font-weight: 600;
 			}
+			
 		}
 		&__image {
 			width: 20rem;
 			height: auto;
+		}
+		&__color-block {
+			display: flex;
+			align-items: center;
+			&--color {
+				width: 2rem;
+				height: 2rem;
+				margin-left: 1rem;
+			}
+		}
+	}
+}
+
+.vape__product-container {
+	.vape__product-card {
+		&__color-block {
+			display: flex;
+			align-items: center;
+			&--color {
+				width: 2rem;
+				height: 2rem;
+				margin-left: 1rem;
+			}
 		}
 	}
 }

@@ -2,5 +2,8 @@
 	= image_tag @product.image_url
 	p = @product.name
 	p = @product.product_type
+	.vape__product-card__color-block
+		span.vape__product-card__color-block--label = t('.color')
+		p.vape__product-card__color-block--color style="background-color: #{@product.product_color}"
 	p = @product.description
 	p = number_to_currency @product.price, locale: :ru

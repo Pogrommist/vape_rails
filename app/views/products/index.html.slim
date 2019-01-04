@@ -7,4 +7,7 @@
 					p.vape__product-card__text.vape__product-card__text--title = product.name
 					p.vape__product-card__text = product.product_type
 					p.vape__product-card__text.vape__product-card__text--description = truncate product.description, length: 100
+					.vape__product-card__color-block
+						span.vape__product-card__color-block--label = t('.color')
+						p.vape__product-card__color-block--color style="background-color: #{product.product_color}"
 					p.vape__product-card__text.vape__product-card__text--price = number_to_currency product.price, locale: :ru

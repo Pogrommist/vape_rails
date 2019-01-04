@@ -41,3 +41,8 @@ ru:
   time:
     formats:
       long: "%Y-%m-%d %H:%M:%S"
+  products:
+    index:
+      color: 'Цвет:' 
+    show:
+      color: 'Цвет:'      
